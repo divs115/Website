@@ -1,0 +1,62 @@
+* { 
+  margin:0; 
+  padding:0; 
+  font-family: 'Courier New', monospace;
+} 
+html, body { 
+  width:100vw; 
+  height:100vh; 
+  font-size: 100%;
+  overflow: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+  background-image: url('https://i.imgur.com/nlq0GM3.png');
+}
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+/*  background-color: rgba(244, 226, 206);*/
+/*background-image: url('https://i.imgur.com/nlq0GM3.png');*/
+}
+.navbar-inverse{
+  padding: 1.5%;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  z-index: 3;
+}
+.navbar-inverse .navbar-brand{
+  color: black;
+  font-size: calc(0.5em + 1vw);
+}
+.navbar-inverse .navbar-nav>li>a{
+  color: black;
+  font-size: calc(0.5rem + 1vw);
+}
+.container{
+  padding-top: 5%;
+}
+.bgcolor{
+/*  background-color: rgba(244, 226, 206);*/
+  background: transparent;
+}
+img{
+  border-radius: 10%;
+}
+.borderimg {
+  border: 10px solid transparent;
+  padding: 5px;
+  border-image: url(Assets/blob.png) 30 stretch;
+}
+.pad10{
+  padding: 0% 10% 0% 10%;
+}
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
