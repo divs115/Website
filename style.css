@@ -11,7 +11,8 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   scroll-behavior: smooth;
-  background-image: url('https://i.imgur.com/nlq0GM3.png');
+/*  background-image: url('https://i.imgur.com/nlq0GM3.png');*/
+  background-image: url('https://raw.githubusercontent.com/divs115/Website/master/Assets/background.png');
 }
 /* Remove the navbar's default margin-bottom and rounded borders */ 
 .navbar {
@@ -21,15 +22,15 @@ html, body {
   padding: 10px;
 /*  box-shadow: 3px 2px 10px;*/
   border: none;
-/*  background-color: rgb(182, 194, 159);*/
-  background-image: linear-gradient(#E9C7AC, #F4E2CE);
+  background-color: rgba(244, 226, 206);
+/*  background-image: linear-gradient(#E9C7AC, #F4E2CE);*/
 /*  rgba(244, 226, 206);*/
 /*  rgba(184, 194, 159)*/
 
 }
 .navbar-inverse{
   padding: 1.5%;
-  width: 99%;
+  width: 77%;
   height: 10%;
   position: fixed;
   z-index: 3;
